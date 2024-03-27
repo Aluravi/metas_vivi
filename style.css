@@ -1,5 +1,5 @@
 :root{
-    --cor-de-fundo:#1E1E1E;
+    --cor-de-fundo:#a01e1e;
     --verde:#6FFF57;
     --branco: #FFFFFF;
     --botao-ativo: #3A375E;
@@ -16,10 +16,10 @@ body{
     text-align: center;
 }
 .botão{
-    background-color: rgb(49, 65, 183);
+    background-color: rgb(24, 163, 168);
     font-size: 40px;
     border-radius: 10px;
-    color: black;
+    color: rgb(198, 240, 10);
     margin: 20px;
     padding: 20px;
 }
@@ -27,15 +27,14 @@ body{
 .conteudo-principal{
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 20px;
+    align-items: center;
     margin: 0 auto;
 }
-
-.imagem1{  
-width: 20%;
-height: 200px;
-
-
-
+.imagem1{
+    width: 15%;
+    height: 15%;
+}
+.meta{
+  display: flex;
 }
